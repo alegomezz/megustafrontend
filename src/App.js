@@ -27,7 +27,7 @@ class App extends Component {
     console.log('Estoy entrando a hacer la peticion');
     
 
-    axios.get('http://localhost:5000/pokemons').then((response)=>{
+    axios.get('https://megustaelbackend.herokuapp.com/pokemons').then((response)=>{
 
       let data = response.data;
       console.log(data);
